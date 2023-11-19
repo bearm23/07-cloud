@@ -18,7 +18,7 @@ jobs:
           sudo chmod 600 ~/.ssh/id_rsa_deploy_gmail
       - name: Git config
         run: |
-          git config --global user.email "bramon@freepik.com"
+          git config --global user.email "ramon.marquez.1b@gmail.com"
           git config --global user.name "Bea Ramon"
       - name: Install
         run: npm ci
